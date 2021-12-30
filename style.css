@@ -200,7 +200,7 @@ body {
 
 #footer ul {
   position: relative;
-  top: 10vh;
+  top: 7vh;
   background: transparent;
   display: flex;
   list-style: none;
@@ -218,4 +218,57 @@ body {
 .swal2-title {
   font-family: 'Jura';
   font-size: 10px;
+}
+@media only screen and (min-width: 768px){
+  #fsec{
+    height:20vh;
+  }
+  #openbtn{
+    margin-top: 4vh;
+  }
+  #ssec{
+    background-position-x:-5vw;
+    top:20vh;
+    height:70vh;
+  }
+  #name{
+    top:30vh;
+    font-size: 40px;
+  }
+  #tsec{
+    height: 70vh;
+    top:20vh;
+  }
+  #school{
+    top:20vh;
+    font-size: 100px;
+  }
+  #schooln{
+    top:20vh;
+    font-size: 60px;
+  }
+  #since{
+    font-size: 40px;
+    top:20vh;
+  }
+  #fosec{
+    top:20vh;
+    height: 70vh;
+  }
+  #cer{
+    top:20vh;
+    font-size: 40px ;
+  }
+  #noob{
+    top:20vh;
+    font-size:60px;
+  }
+  #footer{
+    height: 10vh;
+    top:15vh;
+  }
+  #footer ul{
+    margin-left: 5vw;
+    top:4vh;
+  }
 }
