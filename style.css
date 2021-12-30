@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Jura';
+  src: url('Normograph.ttf');
+}
+
+@font-face {
+  font-family: 'Copy';
+  src: url('Copyviol.ttf');
+}
+
+@font-face {
+  font-family: 'jdequi';
+  src: url('jd_equinox.ttf');
+}
+
+#navbar {
+  position: fixed;
+  z-index: 5;
+  background: #111111;
+  height: 100vh;
+  width: 0px;
+  transition: 0.3s;
+}
+
+#navbar a {
+  display: none;
+  font-family: 'Jura';
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  text-decoration: none;
+}
+
+#closebtn {
+  float: right;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin-top: 1vh;
+  height: 60px;
+  width: 60px;
+  transition: 0.5s:
+}
+
+#fsec {
+  font-size: 15px;
+  font-family: 'Jura';
+  position: absolute;
+  background: url('https://media3.giphy.com/media/fSRQtBAzrPokPCItuu/giphy.webp?cid=6c09b952b2926dab800023bc0b2202682751e09967e7d243&rid=giphy.webp&ct=g');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+}
+
+#openbtn {
+  background: transparent;
+  outline: none;
+  border: none;
+  float: right;
+  height: 60px;
+  width: 60px;
+  margin-top: 5vh;
+  margin-right: 5vw;
+}
+
+#ssec {
+  position: relative;
+  top: 40vh;
+  background: url('https://i.gifer.com/Ego2.gif');
+  background-size: cover;
+  background-position-x: -30vw;
+  height: 100vh;
+  width: 100%;
+}
+
+#name {
+  position: relative;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-family: 'jdequi';
+  top: 45vh;
+  height: 7vh;
+  width: 70vw;
+}
+
+#tsec {
+  position: relative;
+  top: 40vh;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUTbWMgKV-RSvbqpcQr17-kZEYpGRrU1cmCw&usqp=CAU');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+#school {
+  font-family: 'jdequi';
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 35vh;
+  height: 10vh;
+  width: 70vw;
+}
+
+#schooln {
+  background: transparent;
+  outline: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+  position: relative;
+  font-size: 25px;
+  font-family: 'jdequi';
+  top: 40vh;
+  height: 7vh;
+  width: 70vw;
+}
+
+#schooln:hover {
+  background: white;
+  color: black;
+}
+
+#since {
+  position: relative;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family: 'Jura';
+  top: 45vh;
+  font-size: 20px;
+  height: 10vh;
+  width: 80%;
+}
+
+#fosec {
+  position: relative;
+  top: 40vh;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT-365OG3ZxxTP0qrJD6RVVV7amROkXoOtXg&usqp=CAU');
+  height: 100vh;
+  width: 100%;
+}
+
+#cer {
+  position: relative;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family: 'Jura';
+  top: 35vh;
+  font-size: 30px;
+  height: 10vh;
+  width: 80%;
+}
+
+#noob {
+  background: transparent;
+  outline: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+  position: relative;
+  font-size: 25px;
+  font-family: 'jdequi';
+  top: 35vh;
+  height: 7vh;
+  width: 70vw;
+}
+
+#noob:hover {
+  background: white;
+  color: black;
+}
+
+#footer {
+  position: relative;
+  top: 30vh;
+  background: black;
+  height: 20vh;
+  width: 100%;
+}
+
+#footer ul {
+  position: relative;
+  top: 7vh;
+  background: transparent;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+#footer ul li {
+  border-radius: 50%;
+  background: white;
+  height: 30px;
+  position: relative;
+  left: -5vw;
+}
+
+.swal2-title {
+  font-family: 'Jura';
+  font-size: 10px;
+}
