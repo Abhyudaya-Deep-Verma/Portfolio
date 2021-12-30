@@ -70,7 +70,7 @@ body {
   float: right;
   height: 60px;
   width: 60px;
-  margin-top:10vh;
+  margin-top: 10vh;
   margin-right: 5vw;
 }
 
@@ -219,56 +219,69 @@ body {
   font-family: 'Jura';
   font-size: 10px;
 }
-@media only screen and (min-width: 768px){
-  #fsec{
-    height:20vh;
+
+@media only screen and (min-width: 768px) {
+  #fsec {
+    height: 20vh;
   }
-  #openbtn{
+
+  #openbtn {
     margin-top: 4vh;
   }
-  #ssec{
-    background-position-x:-5vw;
-    top:20vh;
-    height:70vh;
+
+  #ssec {
+    background-position-x: -5vw;
+    top: 20vh;
+    height: 70vh;
   }
-  #name{
-    top:30vh;
+
+  #name {
+    top: 30vh;
     font-size: 40px;
   }
-  #tsec{
+
+  #tsec {
     height: 70vh;
-    top:20vh;
+    top: 20vh;
   }
-  #school{
-    top:20vh;
+
+  #school {
+    top: 20vh;
     font-size: 100px;
   }
-  #schooln{
-    top:20vh;
+
+  #schooln {
+    top: 20vh;
     font-size: 60px;
   }
-  #since{
+
+  #since {
     font-size: 40px;
-    top:20vh;
+    top: 20vh;
   }
-  #fosec{
-    top:20vh;
+
+  #fosec {
+    top: 20vh;
     height: 70vh;
   }
-  #cer{
-    top:20vh;
-    font-size: 40px ;
+
+  #cer {
+    top: 20vh;
+    font-size: 40px;
   }
-  #noob{
-    top:20vh;
-    font-size:60px;
+
+  #noob {
+    top: 20vh;
+    font-size: 60px;
   }
-  #footer{
+
+  #footer {
     height: 10vh;
-    top:15vh;
+    top: 15vh;
   }
-  #footer ul{
+
+  #footer ul {
     margin-left: 5vw;
-    top:4vh;
+    top: 4vh;
   }
 }
