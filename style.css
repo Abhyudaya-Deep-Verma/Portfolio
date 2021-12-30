@@ -70,7 +70,7 @@ body {
   float: right;
   height: 60px;
   width: 60px;
-  margin-top: 5vh;
+  margin-top:10vh;
   margin-right: 5vw;
 }
 
@@ -200,7 +200,7 @@ body {
 
 #footer ul {
   position: relative;
-  top: 7vh;
+  top: 10vh;
   background: transparent;
   display: flex;
   list-style: none;
