@@ -24,7 +24,7 @@ body {
 }
 .loader {
     background: #000;
-    background: radial-gradient(#222, #000);
+    background: linear-gradient(to right bottom,#111111,#2A2A2A);
     bottom: 0;
     left: 0;
     overflow: hidden;
@@ -77,31 +77,31 @@ body {
 .loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
 
 .loader-line-wrap:nth-child(1) .loader-line {
-    border-color: white;
+    border-color: silver;
     height: 90px;
     width: 90px;
     top: 7px;
 }
 .loader-line-wrap:nth-child(2) .loader-line {
-    border-color: lightgrey;
+    border-color: #E7E7E7;
     height: 76px;
     width: 76px;
     top: 14px;
 }
 .loader-line-wrap:nth-child(3) .loader-line {
-    border-color: grey;
+    border-color: lightgray;
     height: 62px;
     width: 62px;
     top: 21px;
 }
 .loader-line-wrap:nth-child(4) .loader-line {
-    border-color: dimgrey;
+    border-color: #F2F2F2;
     height: 48px;
     width: 48px;
     top: 28px;
 }
 .loader-line-wrap:nth-child(5) .loader-line {
-    border-color: #3E3E3E;
+    border-color:lightgray ;
     height: 34px;
     width: 34px;
     top: 35px;
