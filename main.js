@@ -30,3 +30,7 @@ const ShowMsg = () => {
     backdrop: 'rgba(0,0,0,0.6)'
   })
 }
+
+document.onreadystatechange = function() {
+  loader.style.display = 'none'
+}
